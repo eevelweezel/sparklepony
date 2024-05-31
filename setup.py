@@ -8,14 +8,14 @@ long_description = open("README.rst").read()
 
 
 setup(
-    name="shinypony",
-    version=version,
+    name="sparklepony",
+    version="1.0.0",
     author="eevelweezel",
     author_email="eevel.weezel@gmail.com",
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    description="My Shiny Happy Contrived Packaging Example Project",
-    license="Creative Commons",
+    description="My Shiny Happy Packaging Example Project",
+    license="MIT",
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
@@ -29,7 +29,6 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Topic :: Software Development",
-        "Framework :: AsyncIO",
     ],
     url="https://github.com/eevelweezel/sparklepony",
     platforms=["any"],
