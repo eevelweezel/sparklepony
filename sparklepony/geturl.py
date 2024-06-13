@@ -9,10 +9,3 @@ def make_request(url):
     except Exception as e:
         print(f"Error in call: {e}")
         raise
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Parser for URLs.")
-    parser.add_argument('--url', help='Add the URL you want to call')
-    args = parser.parse_args()
-    make_request(args["url"])
-
